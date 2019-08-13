@@ -8,7 +8,7 @@
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "build": "tsc -b packages/* --w",
+    "build": "tsc -b packages/ngm-common packages/ngm-www-widget",
     "publish": "lerna publish"
   },
   "version": "1.0.1",
