@@ -1,0 +1,11 @@
+{
+  "name": "lerna_repo_demo",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Andy.L.Jin <Andy.L.Jin@newegg.com>",
+  "license": "MIT"
+}
