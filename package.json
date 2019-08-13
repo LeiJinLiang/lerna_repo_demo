@@ -6,6 +6,7 @@
   },
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Andy.L.Jin <Andy.L.Jin@newegg.com>",
-  "license": "MIT"
+  "author": "aj74",
+  "license": "MIT",
+  "repository": "https://github.com/LeiJinLiang/lerna_repo_demo.git"
 }
