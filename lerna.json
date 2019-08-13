@@ -2,6 +2,12 @@
   "packages": [
     "packages/*"
   ],
+  "command":{
+    "publish":{
+      "allowBranch" : "master",
+      "message" : "chore(release):publish %s"
+    }
+  },
   "npmClient": "yarn",
   "version": "independent",
   "useWorkspaces": true
