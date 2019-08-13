@@ -1,0 +1,9 @@
+{
+  "name": "@ngm/ngm-www-widget",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+     "@ngm/ngm-common" : "1.0.0" 
+  }
+}

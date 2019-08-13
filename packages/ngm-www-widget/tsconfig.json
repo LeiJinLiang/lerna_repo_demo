@@ -1,0 +1,10 @@
+{
+    "extends": "../tsconifg.settings.json",
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "lib"
+    },
+    "references": [
+        {"path": "../ngm-common"}
+    ]
+}

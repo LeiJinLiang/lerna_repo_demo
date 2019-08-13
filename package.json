@@ -1,12 +1,23 @@
 {
   "name": "lerna_repo_demo",
-  "private": true,
   "devDependencies": {
     "lerna": "^3.16.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "tsc -b packages/* --w",
+    "publish": "lerna publish"
   },
   "version": "1.0.0",
   "main": "index.js",
   "author": "aj74",
   "license": "MIT",
-  "repository": "https://github.com/LeiJinLiang/lerna_repo_demo.git"
+  "repository": "https://github.com/LeiJinLiang/lerna_repo_demo.git",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": false
 }

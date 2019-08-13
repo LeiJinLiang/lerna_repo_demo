@@ -1,0 +1,7 @@
+{
+    "files": [],
+    "references": [
+        {"path": "ngm-common"},
+        {"path": "ngm-www-widget"}
+    ]
+}
