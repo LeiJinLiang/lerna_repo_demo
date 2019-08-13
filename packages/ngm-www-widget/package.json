@@ -5,5 +5,6 @@
   "license": "MIT",
   "dependencies": {
     "@ngm/ngm-common": "^16821.1.0"
-  }
+  },
+  "gitHead": "05cd3a87efdc72b2ca89a251edafedf7d1db081b"
 }
