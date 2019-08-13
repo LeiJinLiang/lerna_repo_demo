@@ -11,7 +11,7 @@
     "build": "tsc -b packages/ngm-common packages/ngm-www-widget",
     "publish": "lerna publish"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "author": "aj74",
   "license": "MIT",
