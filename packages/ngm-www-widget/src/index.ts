@@ -1,5 +1,5 @@
 import { awesomeFn }from '@ngm/ngm-common';
 export function cli() {
-    console.log('new 00000000.')
+    console.log('new 00000000.2')
     awesomeFn();
 }
