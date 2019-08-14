@@ -17,7 +17,7 @@
     "prepublish": "lerna run prepublish",
     "lerna:publish": "lerna publish from-git --yes --npm-client yarn --npm-tag beta"
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "index.js",
   "author": "aj74",
   "license": "MIT",
