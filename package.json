@@ -9,7 +9,7 @@
   "scripts": {
     "test": "exit 0",
     "bootstrap": "lerna bootstrap",
-    "build": "tsc -b packages/ngm-common packages/ngm-www-widget",
+    "build": "tsc -b packages/ngm-common packages/ngm-www-widget -w",
     "publish": "lerna publish",
     "dev": "lerna run build --stream --parallel",
     "lerna:version": "lerna version prerelease --preid beta && yarn run lerna:postversion",
