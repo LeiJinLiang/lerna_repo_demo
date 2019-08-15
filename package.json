@@ -30,6 +30,5 @@
   "repository": "https://github.com/LeiJinLiang/lerna_repo_demo.git",
   "workspaces": [
     "packages/*"
-  ],
-  "private": true
+  ]
 }
