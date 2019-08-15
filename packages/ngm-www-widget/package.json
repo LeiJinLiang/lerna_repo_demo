@@ -1,10 +1,10 @@
 {
   "name": "@ngm/ngm-www-widget",
-  "version": "30336.1.1",
+  "version": "30336.1.2",
   "main": "lib/index.js",
   "license": "MIT",
   "dependencies": {
-    "@ngm/ngm-common": "30336.1.1"
+    "@ngm/ngm-common": "30336.1.2"
   },
   "gitHead": "c969acf91775fdd41be237cfb259ba1ecf1a9d23"
 }

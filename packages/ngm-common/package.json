@@ -1,6 +1,6 @@
 {
   "name": "@ngm/ngm-common",
-  "version": "30336.1.1",
+  "version": "30336.1.2",
   "main": "lib/index.js",
   "license": "MIT",
   "devDependencies": {
