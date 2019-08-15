@@ -23,7 +23,7 @@
     "lerna:publish": "lerna publish from-git --yes --npm-client yarn --npm-tag beta",
     "build": "node scripts/build.js"
   },
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "index.js",
   "author": "aj74",
   "license": "MIT",
