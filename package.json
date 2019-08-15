@@ -1,7 +1,12 @@
 {
   "name": "lerna_repo_demo",
   "devDependencies": {
-    "lerna": "^3.16.4"
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "lerna": "^3.16.4",
+    "minimist": "^1.2.0",
+    "webpack": "^4.39.2"
   },
   "dependencies": {
     "lodash": "^4.17.15"
@@ -9,13 +14,14 @@
   "scripts": {
     "test": "exit 0",
     "bootstrap": "lerna bootstrap",
-    "build": "tsc -b packages/ngm-common packages/ngm-www-widget -w",
+    "b": "tsc -b packages/ngm-common packages/ngm-www-widget -w",
     "publish": "lerna publish",
     "dev": "lerna run build --stream --parallel",
     "lerna:version": "lerna version prerelease --preid beta && yarn run lerna:postversion",
     "lerna:postversion": "chan release --group-changes $(node -p -e \"require('./lerna.json').version\") && git add CHANGELOG.md && git commit -m \"Update: changelog\" && git push --follow-tags",
     "prepublish": "lerna run prepublish",
-    "lerna:publish": "lerna publish from-git --yes --npm-client yarn --npm-tag beta"
+    "lerna:publish": "lerna publish from-git --yes --npm-client yarn --npm-tag beta",
+    "build": "node scripts/build.js"
   },
   "version": "1.0.6",
   "main": "index.js",
