@@ -4,7 +4,7 @@
   "main": "lib/index.js",
   "license": "MIT",
   "devDependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.19"
   },
   "gitHead": "cfeaa4f0e964a5891a1b80a88fe0c8c6f876ed0c"
 }
